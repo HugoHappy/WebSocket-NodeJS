@@ -5,7 +5,7 @@ A very simple nodejs module for websocket server
 # How to use it
 Install with `npm install websocket-nodejs` or put all files in a folder called "websocket-nodejs", and:
 ```javascript
-var ws = require("WebSocket-NodeJS")
+var ws = require("websocket-nodejs")
 
 var server = ws.createServer(function (conn) {
 	console.log("New connection")
