@@ -1,6 +1,7 @@
 # WebSocket-NodeJS
 
 A very simple nodejs module for websocket server
+Note: ECMAScript 6 is used
 
 # How to use it
 Install with `npm install websocket-nodejs` or put all files in a folder called "websocket-nodejs", and:
@@ -64,3 +65,10 @@ A string representing the path to which the connection was made.
 
 ## connection.headers
 Read only map of header names and values.
+ 
+# References
+[https://tools.ietf.org/html/rfc6455#section-5.5.1](https://tools.ietf.org/html/rfc6455#section-5.5.1)
+[https://nodejs.org/api/](https://nodejs.org/api/)
+[https://github.com/sitegui/nodejs-websocket](https://github.com/sitegui/nodejs-websocket)
+[https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>_(Sign-propagating_right_shift)](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#>>_(Sign-propagating_right_shift))
+[https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_a_WebSocket_server_in_Java](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_a_WebSocket_server_in_Java)
