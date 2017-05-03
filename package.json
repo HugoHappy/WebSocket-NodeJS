@@ -1,0 +1,16 @@
+{
+  "name": "websocket-nodejs",
+  "version": "1.0.0",
+  "description": "test publish, please ignore",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HugoHappy/WebSocket-NodeJS"
+  },
+  "author": "Kristoffer Aas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoHappy/WebSocket-NodeJS/issues"
+  },
+  "homepage": "https://github.com/HugoHappy/WebSocket-NodeJS#readme"
+}
