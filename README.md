@@ -3,7 +3,7 @@
 A very simple nodejs module for websocket server
 
 # How to use it
-Install with `npm install asdf` or put all files in a folder called "WebSocket-NodeJS", and:
+Install with `npm install websocket-nodejs` or put all files in a folder called "websocket-nodejs", and:
 ```javascript
 var ws = require("WebSocket-NodeJS")
 
@@ -18,8 +18,10 @@ var server = ws.createServer(function (conn) {
 }).listen(8001)
 ```
 
+Keep in mind this is just for a websocket server, see the samples for full implementation with client.
+
 # ws
-The main object, returned by `require("WebSocket-NodeJS")`.
+The main object, returned by `require("websocket-nodejs")`.
 
 ## ws.createServer(callback)
 Returns a new `Server` object.
