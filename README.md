@@ -19,7 +19,7 @@ var server = ws.createServer(function (conn) {
 }).listen(8001)
 ```
 
-Keep in mind this is just for a websocket server, see the samples for a full implementation with client.
+Keep in mind this is just for a websocket server, see the samples for a full implementation with client and http.
 
 # ws
 The main object, returned by `require("websocket-nodejs")`.
